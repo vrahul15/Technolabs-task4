@@ -1,0 +1,112 @@
+body {
+	background: #e6e6e6;
+	margin: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navigation Bar */
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	background-color: #010e80;
+	flex-wrap: wrap;
+}
+
+nav li {
+	flex: 1 1 auto;
+	text-align: center;
+}
+
+li a {
+	display: block;
+	color: white;
+	padding: 20px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+/* Header */
+header {
+	margin: 20px;
+	text-align: center;
+}
+
+/* Blog Article */
+article {
+	margin: 20px auto;
+	max-width: 800px;
+	font-size: 18px;
+	line-height: 1.8;
+}
+
+/* Image and Caption */
+img {
+	width: 100%;
+	max-width: 400px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+figcaption {
+	text-align: center;
+	font-style: italic;
+	margin-top: 8px;
+}
+
+/* Aside Section */
+aside {
+	margin: 20px auto;
+	border: 5px solid #010e80;
+	padding: 15px;
+	max-width: 800px;
+	background: #f9f9f9;
+	font-size: 18px;
+}
+
+/* Media Content */
+video,
+embed {
+	display: block;
+	margin: 15px auto;
+	width: 100%;
+	max-width: 600px;
+	height: auto;
+}
+
+audio {
+	display: block;
+	margin: 15px auto;
+	width: 95%;
+	max-width: 800px;
+}
+
+/* Footer */
+footer {
+	background-color: #010e80;
+	padding: 20px 0;
+	margin-top: 40px;
+	text-align: center;
+	color: white;
+}
+
+footer p {
+	margin: 5px;
+}
+
+/* Responsive Improvements */
+@media (max-width: 768px) {
+	nav ul {
+		flex-direction: column;
+	}
+
+	li a {
+		padding: 15px;
+	}
+}
